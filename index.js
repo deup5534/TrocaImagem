@@ -1,0 +1,1 @@
+const trocaPronta = document.querySelector("troca")
