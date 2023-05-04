@@ -1,4 +1,17 @@
+.troca{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tamanho{
+    max-width: 30%;
+    height: 15%;
+    background-color: aqua;
+}
 #troca{
-    display: block;
     
 }
