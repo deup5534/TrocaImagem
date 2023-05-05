@@ -8,10 +8,12 @@
     flex-direction: column;
 }
 .tamanho{
-    max-width: 30%;
+    max-width: 50%;
     height: 15%;
     background-color: aqua;
 }
-#troca{
-    
+.tamanho2{
+    max-width: 30%;
+    height: 15%;
+    background-image: url(copocheio.png);
 }
