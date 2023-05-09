@@ -1,8 +1,5 @@
-const trocou = () => {
-    trocou.src = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAX6V1A4DTaP0n-XeZQ0bTHLn8ey9jx7_NipWE_Uz&s`
-}
+const copoCheio = document.getElementById("copoCheio")
 
-const trocar = () => {
-    const  imagem = document.getElementById("encherCopo")
-    imagem.addEventListener("click",trocou )
+function encherCopo () {
+    copoCheio.innerHTML = `<img src="copochei.jpg" alt="copoCheioDeRefrigerante">`
 }
