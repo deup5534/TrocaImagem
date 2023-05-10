@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient(to right, black, gray);
+}
 .troca{
     text-align: center;
 }
@@ -6,6 +9,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: darkgrey;
+    padding: 5%;
+    border: 100vh;
 }
 .tamanho{
     max-width: 50%;
@@ -19,6 +25,14 @@
 }
 .texto{
     background-color: yellowgreen;
+
+}
+#copoCheio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    height: 30%;
 }
 
 /*oi*/
